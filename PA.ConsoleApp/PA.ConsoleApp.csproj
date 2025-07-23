@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\24-06-2025\OddNumber\Models\Models.csproj" />
+    <ProjectReference Include="..\..\24-06-2025\PrimeNumberSolution\Managers\Managers.csproj" />
+    <ProjectReference Include="..\..\24-06-2025\PrimeNumberSolution\Models\Models.csproj" />
+    <ProjectReference Include="..\..\24-06-2025\ReverseString\Managers\Managers.csproj" />
+    <ProjectReference Include="..\..\24-06-2025\ReverseString\Models\Models.csproj" />
+    <ProjectReference Include="..\..\24-06-2025\SubstractionOf2Numbers\Managers\Managers.csproj" />
+    <ProjectReference Include="..\..\24-06-2025\SubstractionOf2Numbers\Models\Models.csproj" />
+    <ProjectReference Include="..\PA.Manager\PA.Manager.csproj" />
+    <ProjectReference Include="..\PA.Models\PA.Models.csproj" />
+  </ItemGroup>
+
+</Project>
